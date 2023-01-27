@@ -20,6 +20,9 @@ export default function App() {
   return (
     <div className="app-main">
       <NavBar />
+      <div className="summary">
+        With over a decade of experience in machine control and automation, CRB Consulting can provide expert service.
+      </div>
       <div className="category-cards">
         {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
         <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
