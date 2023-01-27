@@ -4,6 +4,7 @@ import '@/styles/app.css'
 import { useEffect } from 'react';
 import Image from 'next/image';
 import MachineVisionImage from '@/images/machine-vision.png'
+import RobotImage from '@/images/robot.png'
 import CategoryCard from './components/category_card';
 
 export default function App() {
@@ -21,7 +22,8 @@ export default function App() {
       </div>
       <div className="category-cards">
         {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
-        <CategoryCard image={MachineVisionImage}/>
+        <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
+        <CategoryCard image={RobotImage} title="Robotics"/>
       </div>
     </div>
   )
