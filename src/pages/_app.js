@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/globals.css'
 import '@/styles/app.css'
+import '@/styles/category_card.css'
 import { useEffect } from 'react';
 import Image from 'next/image';
 import MachineVisionImage from '@/images/machine-vision.png'
