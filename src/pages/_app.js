@@ -3,7 +3,6 @@ import '@/styles/globals.css'
 import '@/styles/app.css'
 import '@/styles/categoryCard.css'
 import { useEffect } from 'react';
-import Image from 'next/image';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
 import CategoryCard from './components/categoryCard';
