@@ -5,4 +5,5 @@
 .card{
     background: gray;
     color:black;
+    display: inline-block;
 }
