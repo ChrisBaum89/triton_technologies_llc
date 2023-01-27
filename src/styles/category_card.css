@@ -1,0 +1,11 @@
+.card{
+    background: gray;
+    color:black;
+    display: inline-block;
+}
+
+.card-title{
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
