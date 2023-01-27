@@ -24,14 +24,34 @@ export default function App() {
         With over a decade of experience in machine control and automation, CRB Consulting can provide expert service.
       </div>
       <div className="category-cards">
-        {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
-        <CategoryCard image={MachineVisionImage} title="Machine Control"/>
+        <div className="row">
+          {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
+          <div className="col-sm">
+            <CategoryCard image={MachineVisionImage} title="Machine Control" />
+          </div>
+          <div className="col-sm">
+            <CategoryCard image={MachineVisionImage} title="Machine Vision" />
+          </div>
+          <div className="col-sm">
+            <CategoryCard image={RobotImage} title="Robotics" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm">
+            <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces" />
+          </div>
+          <div className="col-sm">
+            <CategoryCard image={RobotImage} title="System Testing and Validation" />
+          </div>
+
+          {/* <CategoryCard image={MachineVisionImage} title="Machine Control"/>
         <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
         <CategoryCard image={RobotImage} title="Robotics"/>
-        <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces (HMI)"/>
-        <CategoryCard image={RobotImage} title="System Testing and Validation"/>
-      </div>
+        <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces"/>
+        <CategoryCard image={RobotImage} title="System Testing and Validation"/> */}
+        </div>
+      </div >
       <div className="bottom-space"></div>
-    </div>
+    </div >
   )
 }

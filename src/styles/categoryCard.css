@@ -1,10 +1,6 @@
 .card {
   background: rgb(0, 0, 0);
-  width: 300px;
-  height: 350px;
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 20px;
+  width: 100%;
   box-shadow:
   2.1px 1.6px 1.2px rgba(0, 0, 0, 0.15),
   4.7px 3.4px 2.7px rgba(0, 0, 0, 0.08),
@@ -16,18 +12,24 @@
   50.4px 36.5px 29.2px rgba(0, 0, 0, 0.013),
   77.6px 56.3px 45px rgba(0, 0, 0, 0.009),
   138px 100px 80px rgba(0, 0, 0, 0.004)
-;
-;
-    text-align: center;
+;}
+
+.col-sm{
+  padding-top: 15px;
+  justify-items: center;
 }
 
 .card-image{
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .card-title {
   color: white;
   font-size: 30px;
   font-weight: bolder;
-  overflow-wrap: break-word;
+}
+
+.row{
+ padding-left: 15px;
+ padding-right: 15px;
 }
