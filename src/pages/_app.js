@@ -28,6 +28,7 @@ export default function App() {
         <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
         <CategoryCard image={RobotImage} title="Robotics"/>
       </div>
+      <div className="bottom-space"></div>
     </div>
   )
 }
