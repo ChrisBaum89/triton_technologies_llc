@@ -1,15 +1,21 @@
 .card {
-  background: black;
+  background: rgb(0, 0, 0);
   width: "18rem";
-  color: black;
   display: inline-block;
   margin-left: 20px;
-  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-    100px 100px 80px rgba(0, 0, 0, 0.07);
+  box-shadow:
+  2.1px 1.6px 1.2px rgba(0, 0, 0, 0.15),
+  4.7px 3.4px 2.7px rgba(0, 0, 0, 0.08),
+  7.9px 5.8px 4.6px rgba(0, 0, 0, 0.056),
+  12px 8.7px 6.9px rgba(0, 0, 0, 0.042),
+  17.3px 12.5px 10px rgba(0, 0, 0, 0.033),
+  24.5px 17.7px 14.2px rgba(0, 0, 0, 0.025),
+  34.7px 25.1px 20.1px rgba(0, 0, 0, 0.019),
+  50.4px 36.5px 29.2px rgba(0, 0, 0, 0.013),
+  77.6px 56.3px 45px rgba(0, 0, 0, 0.009),
+  138px 100px 80px rgba(0, 0, 0, 0.004)
+;
+;
     text-align: center;
 }
 
