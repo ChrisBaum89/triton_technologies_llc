@@ -1,4 +1,27 @@
+.link-text{
+    color:white;
+}
+
+.navbar{
+    background-color: black;
+    
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    
+}
+
+.navbar-nav{
+
+}
+
 .top-nav{
+    background-color: black;
+    font-weight: bold;
     top: 0px;
     width: 100%;
     font-size: 20px;
