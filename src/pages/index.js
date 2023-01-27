@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import App from './_app'
 
 export default function Home() {
   return (
@@ -16,9 +15,7 @@ export default function Home() {
         <title>CRB Consulting</title>
       </Head>
       <main className={styles.main}>
-        <div>
-          Main Page
-        </div>
+        <App />
       </main>
     </>
   )
