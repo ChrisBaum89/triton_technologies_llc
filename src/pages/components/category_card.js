@@ -2,11 +2,10 @@ import Image from "next/image"
 
 export default function CategoryCard(props) {
     return(
-        <div class="card" style={{width: "18rem"}}>
-          <Image src={props.image} class="card-img-top" alt="..." style={{height: "18rem", width: "18rem"}}/>
+        <div class="card" style={{width: "25rem"}}>
+          <Image src={props.image} class="card-img-top" alt="..." style={{height: "18rem", width: "25rem"}}/>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-title">{props.title}</div>
             </div>
         </div>
     )
