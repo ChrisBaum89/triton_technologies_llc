@@ -1,0 +1,1 @@
+machine-vision.png "https://pixabay.com/illustrations/machine-engineer-eye-blue-look-1776925/"
