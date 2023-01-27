@@ -25,8 +25,11 @@ export default function App() {
       </div>
       <div className="category-cards">
         {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
+        <CategoryCard image={MachineVisionImage} title="Machine Control"/>
         <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
         <CategoryCard image={RobotImage} title="Robotics"/>
+        <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces (HMI)"/>
+        <CategoryCard image={RobotImage} title="System Testing and Validation"/>
       </div>
       <div className="bottom-space"></div>
     </div>
