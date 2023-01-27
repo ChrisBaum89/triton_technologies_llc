@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/globals.css'
 import '@/styles/app.css'
-import '@/styles/category_card.css'
+import '@/styles/categoryCard.css'
 import { useEffect } from 'react';
 import Image from 'next/image';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
-import CategoryCard from './components/category_card';
+import CategoryCard from './components/categoryCard';
 
 export default function App() {
   // Bootstrap uses some only client-side objects (window, document) to handle events. On the other hand, Next.js 
@@ -18,6 +18,9 @@ export default function App() {
 
   return (
     <div className="app-main">
+      <div className="nav-bar">
+
+      </div>
       <div className="company-logo">
         CRB Consulting
       </div>
