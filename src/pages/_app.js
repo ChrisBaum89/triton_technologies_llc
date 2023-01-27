@@ -6,6 +6,7 @@ import '@/styles/navBar.css'
 import { useEffect } from 'react';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
+import HmiImage from '@/images/human-machine-interface.png'
 import CategoryCard from './components/categoryCard';
 import NavBar from './components/navBar';
 
@@ -38,7 +39,7 @@ export default function App() {
         </div>
         <div className="row">
           <div className="col-sm">
-            <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces" />
+            <CategoryCard image={HmiImage} title="Human Machine Interfaces" />
           </div>
           <div className="col-sm">
             <CategoryCard image={RobotImage} title="System Testing and Validation" />
