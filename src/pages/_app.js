@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
 import HmiImage from '@/images/human-machine-interface.png'
+import ValImage from '@/images/validation.png'
 import CategoryCard from './components/categoryCard';
 import NavBar from './components/navBar';
 
@@ -42,14 +43,8 @@ export default function App() {
             <CategoryCard image={HmiImage} title="Human Machine Interfaces" />
           </div>
           <div className="col-sm">
-            <CategoryCard image={RobotImage} title="System Testing and Validation" />
+            <CategoryCard image={ValImage} title="System Testing and Validation" />
           </div>
-
-          {/* <CategoryCard image={MachineVisionImage} title="Machine Control"/>
-        <CategoryCard image={MachineVisionImage} title="Machine Vision"/>
-        <CategoryCard image={RobotImage} title="Robotics"/>
-        <CategoryCard image={MachineVisionImage} title="Human Machine Interfaces"/>
-        <CategoryCard image={RobotImage} title="System Testing and Validation"/> */}
         </div>
       </div >
       <div className="bottom-space"></div>
