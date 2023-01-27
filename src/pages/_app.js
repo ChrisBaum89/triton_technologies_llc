@@ -1,24 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/globals.css'
-import Image from 'next/image'
+import {useEffect} from 'react';
 
 export default function App() {
-
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap');
+  }, [])
 
   return (
-    <div>
-      <div className="logo">
+    <div className="app-main">
+      <div className="company-logo">
         CRB Consulting
       </div>
       <div className="category-cards">
-        <div className="card">
-          Machine Control
-        </div>
-        <div className="card">
-          Machine Vision
-        </div>
-        <div className="card">
-          System Qualification and Validation
-        </div>
+        
       </div>
     </div>
   )
