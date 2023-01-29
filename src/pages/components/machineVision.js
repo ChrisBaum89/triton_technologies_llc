@@ -9,12 +9,18 @@ export default function MachineVision() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <ul>
-                            <li>Keyence</li>
-                            <li>Cognex</li>
-                            <li>Teledyne Dalsa</li>
-                            <li>Datalogicx</li>
-                        </ul>
+                    <div className="category-summary">
+                            Expert in implementing defect and part presence machine vision detection
+                             and integrating vision sensors into existing systems.
+                        </div>
+                        <div className="category-list">
+                            <ul>
+                                <li>Cognex</li>
+                                <li>Doss Visual Inspection Equipement</li>
+                                <li>Keyence</li>
+                                <li>Teledyne Dalsa</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
