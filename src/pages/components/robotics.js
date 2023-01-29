@@ -9,7 +9,13 @@ export default function Robotics() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        robotics
+                        <ul>
+                            <li>Adept</li>
+                            <li>Epson</li>
+                            <li>Mitsubishi</li>
+                            <li>Omron</li>
+                            <li>Yamaha</li>
+                        </ul>
                     </div>
                 </div>
             </div>
