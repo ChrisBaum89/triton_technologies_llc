@@ -1,10 +1,16 @@
 import Image from "next/image"
 import Link from "next/link"
+import EquipmentDesign from "./equipmentDesign"
+import HumanMachineInterfaces from "./humanMachineInterfaces"
+import MachineControl from "./machineControl"
+import MachineVision from "./machineVision"
+import Robotics from "./robotics"
+import SystemTesting from "./systemTesting"
 
 export default function CategoryCard(props) {
     return (
         <div className="card text-center">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#categoryModal"}>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#categoryModal1"}>
             <div className="card-image">
                 <Image src={props.image} className="card-img-top" alt="..." style={{ height: "12rem", width: "auto" }} />
             </div>
@@ -13,22 +19,12 @@ export default function CategoryCard(props) {
             </div>
             </button>
 
-            <div class="modal fade" id="categoryModal" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="categoryModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <MachineControl />
+            <MachineVision />
+            <Robotics />
+            <HumanMachineInterfaces />
+            <SystemTesting />
+            <EquipmentDesign />
         </div>
     )
 }
