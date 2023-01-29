@@ -1,28 +1,39 @@
-.link-text{
-    color:white;
+.link-text {
+  color: white;
 }
 
-.navbar{
-    background-color: black;
-    
+.navbar {
+  background-color: black;
+  border-bottom-left-radius: 5px!important;
+  border-bottom-right-radius: 5px!important;
+  box-shadow: 2.1px 1.6px 1.2px rgba(0, 0, 0, 0.15),
+    4.7px 3.4px 2.7px rgba(0, 0, 0, 0.08),
+    7.9px 5.8px 4.6px rgba(0, 0, 0, 0.056),
+    12px 8.7px 6.9px rgba(0, 0, 0, 0.042),
+    17.3px 12.5px 10px rgba(0, 0, 0, 0.033),
+    24.5px 17.7px 14.2px rgba(0, 0, 0, 0.025),
+    34.7px 25.1px 20.1px rgba(0, 0, 0, 0.019),
+    50.4px 36.5px 29.2px rgba(0, 0, 0, 0.013),
+    77.6px 56.3px 45px rgba(0, 0, 0, 0.009),
+    138px 100px 80px rgba(0, 0, 0, 0.004);
 }
 
-.navbar-brand{
-    color: white;
+.navbar-brand {
+  color: white;
 }
 
-.nav-link{
-    
+.nav-link {
 }
 
-.navbar-nav{
-
+.navbar-nav {
 }
 
-.top-nav{
-    background-color: black;
-    font-weight: bold;
-    top: 0px;
-    width: 100%;
-    font-size: 20px;
+.top-nav {
+  background-color: black;
+  font-weight: bold;
+  top: 0px;
+  width: 100%;
+  font-size: 20px;
+  border-bottom-left-radius: 5px!important;
+  border-bottom-right-radius: 5px!important;
 }
