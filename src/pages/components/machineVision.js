@@ -9,10 +9,12 @@ export default function MachineVision() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        Machine vision
-                    </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <ul>
+                            <li>Keyence</li>
+                            <li>Cognex</li>
+                            <li>Teledyne Dalsa</li>
+                            <li>Datalogicx</li>
+                        </ul>
                     </div>
                 </div>
             </div>
