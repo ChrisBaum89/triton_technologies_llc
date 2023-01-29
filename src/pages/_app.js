@@ -48,7 +48,7 @@ export default function App() {
             <CategoryCard image={HmiImage} title="Human Machine Interfaces" modal={"#categoryModal4"}/>
           </div>
           <div className="col-sm">
-            <CategoryCard image={ValImage} title="System Testing and Validation" modal={"#categoryModal5"}/>
+            <CategoryCard image={ValImage} title="System Testing & Validation" modal={"#categoryModal5"}/>
           </div>
           <div className="col-sm">
             <CategoryCard image={ProjectImage} title="Equipment Design & Procurement" modal={"#categoryModal6"}/>
