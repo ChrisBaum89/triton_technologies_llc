@@ -1,12 +1,12 @@
 
 export default function About () {
     return (
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasLabel">About</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title" id="offcanvasLabel">About</h5>
+                        <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div className="offcanvas-body">
                         CRB Consulting LLC was founded in 2022 by Chris Baum.
                         Working in the pharmaceuticala and medical device industry for over a decade as an integrator
                         and contract manufacturer, Chris has had a significant amount of experience supporting, upgrading, designing
