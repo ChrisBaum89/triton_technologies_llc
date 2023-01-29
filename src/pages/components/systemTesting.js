@@ -9,12 +9,19 @@ export default function SystemTesting() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <ul>
-                            <li>Installation Qualification (IQ)</li>
-                            <li>Operation Qualification (OQ)</li>
-                            <li>Performance Qualification (PQ)</li>
-                            <li>Software Validation (SV)</li>
-                        </ul>
+                        <div className="category-summary">
+                            add summary
+                        </div>
+                        <div className="category-list">
+                            <ul>
+                                <li>Installation Qualifications (IQs)</li>
+                                <li>Operational Qualifications (OQs)</li>
+                                <li>Performance Qualifications (PQs)</li>
+                                <li>Software Validations (SVs)</li>
+                                <li>Factory Acceptance Testing (FATs)</li>
+                                <li>Site Acceptance Testing (SATs)</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
