@@ -16,6 +16,9 @@ export default function MachineVision() {
                             <li>Datalogicx</li>
                         </ul>
                     </div>
+                    <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
