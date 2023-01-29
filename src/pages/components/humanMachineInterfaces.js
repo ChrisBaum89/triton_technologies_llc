@@ -9,11 +9,17 @@ export default function HumanMachineInterfaces() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <ul>
-                            <li>Allen-Bradley</li>
-                            <li>Automation Direct</li>
-                            <li>Proface</li>
-                        </ul>
+                        <div className="category-summary">
+                            add summary
+                        </div>
+                        <div className="category-list">
+                            <ul>
+                                <li>Allen-Bradley HMIs</li>
+                                <li>AutomationDirect HMIs</li>
+                                <li>Keyence HMIs</li>
+                                <li>Proface HMIs</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
