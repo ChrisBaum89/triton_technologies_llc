@@ -9,7 +9,11 @@ export default function MachineControl() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        machine control
+                        <ul>
+                            <li>Allen-Bradley</li>
+                            <li>Omron</li>
+                            <li>Keyence</li>
+                        </ul>
                     </div>
                 </div>
             </div>
