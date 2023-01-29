@@ -7,3 +7,7 @@ human-machine-interface-2.png "https://pixabay.com/photos/internet-touch-screen-
 human-machine-interface.png "https://pixabay.com/photos/industry-industry-4-web-network-2630319/"
 
 validation.png "https://pixabay.com/photos/business-businesswoman-hook-3468267/"
+
+machine-control.png "https://wallpaperaccess.com/plc"
+
+crb-consulting.png "https://app.logo.com/" crbconsultingsc@gmail.com color:#00B5FF
