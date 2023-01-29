@@ -9,11 +9,19 @@ export default function MachineControl() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <ul>
-                            <li>Allen-Bradley</li>
-                            <li>Omron</li>
-                            <li>Keyence</li>
-                        </ul>
+                        <div className="category-summary">
+                            Over a decade of experience with process controls, specializing in machine control utilizing 
+                            Programmable Logic Controllers (PLCs).
+                        </div>
+                        <div className="category-list">
+                            <ul>
+                                <li>Allen-Bradley PLCs</li>
+                                <li>AutomationDirect PLCs</li>
+                                <li>Keyence PLCs</li>
+                                <li>Omron PLCs</li>
+                                <li>Siemens PLCs</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
