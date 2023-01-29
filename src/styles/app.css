@@ -3,10 +3,16 @@
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 2;
+    font-family: "Didact Gothic";
 }
 
 .bottom-space{
     height: 100px;
+}
+
+.category-cards {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .company-logo{
