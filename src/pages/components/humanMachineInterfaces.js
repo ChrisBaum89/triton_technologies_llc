@@ -11,9 +11,6 @@ export default function HumanMachineInterfaces() {
                     <div className="modal-body">
                         HMI
                     </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
                 </div>
             </div>
         </div>
