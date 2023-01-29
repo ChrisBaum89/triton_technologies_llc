@@ -9,7 +9,12 @@ export default function SystemTesting() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        System Testing
+                        <ul>
+                            <li>Installation Qualification (IQ)</li>
+                            <li>Operation Qualification (OQ)</li>
+                            <li>Performance Qualification (PQ)</li>
+                            <li>Software Validation (SV)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
