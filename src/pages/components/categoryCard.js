@@ -10,7 +10,7 @@ import SystemTesting from "./systemTesting"
 export default function CategoryCard(props) {
     return (
         <div className="card text-center">
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#categoryModal1"}>
+            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={props.modal}>
             <div className="card-image">
                 <Image src={props.image} className="card-img-top" alt="..." style={{ height: "12rem", width: "auto" }} />
             </div>
