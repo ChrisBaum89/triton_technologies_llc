@@ -5,6 +5,7 @@ import '@/styles/categoryCard.css'
 import '@/styles/navBar.css'
 import '@/styles/offcanvas.css'
 import '@/styles/categoryModal.css'
+import '@/styles/contact.css'
 import { useEffect } from 'react';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
