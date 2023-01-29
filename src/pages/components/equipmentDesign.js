@@ -9,7 +9,18 @@ export default function EquipmentDesign() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        Equipment Design
+                        <div className="category-summary">
+                            Successfully procured and helped design over 20 pieces of automated equipment, using various machine builders to develop and deliver custom automed equipment.
+                        </div>
+                        <div className="category-list">
+                            <ul>
+                                <li>Quoting</li>
+                                <li>Develop & Implement User Requirements</li>
+                                <li>Timeline Development & Management</li>
+                                <li>Develop Operating Procedures</li>
+                                <li>Equipment & Procedure Training</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
