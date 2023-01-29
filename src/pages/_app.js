@@ -3,6 +3,7 @@ import '@/styles/globals.css'
 import '@/styles/app.css'
 import '@/styles/categoryCard.css'
 import '@/styles/navBar.css'
+import '@/styles/offcanvas.css'
 import { useEffect } from 'react';
 import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
@@ -26,7 +27,7 @@ export default function App() {
     <div className="app-main">
       <NavBar logo={LogoImage}/>
       <div className="summary">
-        With over a decade of experience in machine control and automation, CRB Consulting can provide expert service.
+        Over a decade of experience in machine control, machine vision, and system qualification.
       </div>
       <div className="category-cards">
         <div className="row">
