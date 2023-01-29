@@ -18,6 +18,10 @@
   background-color: black;;
 }
 
+.btn:hover{
+  background-color: #00B5FF;
+}
+
 .col-sm{
   padding-top: 15px;
   justify-items: center;
