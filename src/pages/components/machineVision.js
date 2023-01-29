@@ -16,7 +16,7 @@ export default function MachineVision() {
                         <div className="category-list">
                             <ul>
                                 <li>Cognex</li>
-                                <li>Doss Visual Inspection Equipement</li>
+                                <li>Doss Visual Inspection</li>
                                 <li>Keyence</li>
                                 <li>Teledyne Dalsa</li>
                             </ul>
