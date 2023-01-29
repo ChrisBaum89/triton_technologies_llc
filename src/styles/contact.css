@@ -1,0 +1,14 @@
+.about-form-line{
+    margin-bottom: 10px;
+}
+
+.about-input{
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.about-label{
+    width: 125px!important;
+    text-align: right;
+}
