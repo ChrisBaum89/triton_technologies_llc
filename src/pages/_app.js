@@ -8,6 +8,9 @@ import MachineVisionImage from '@/images/machine-vision.png'
 import RobotImage from '@/images/robot.png'
 import HmiImage from '@/images/human-machine-interface.png'
 import ValImage from '@/images/validation.png'
+import MachineControlImage from '@/images/machine-control.png'
+import LogoImage from '@/images/crb-consulting.png'
+import ProjectImage from '@/images/project-management.png'
 import CategoryCard from './components/categoryCard';
 import NavBar from './components/navBar';
 
@@ -21,7 +24,7 @@ export default function App() {
 
   return (
     <div className="app-main">
-      <NavBar />
+      <NavBar logo={LogoImage}/>
       <div className="summary">
         With over a decade of experience in machine control and automation, CRB Consulting can provide expert service.
       </div>
@@ -29,7 +32,7 @@ export default function App() {
         <div className="row">
           {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
           <div className="col-sm">
-            <CategoryCard image={MachineVisionImage} title="Machine Control" />
+            <CategoryCard image={MachineControlImage} title="Machine Control" />
           </div>
           <div className="col-sm">
             <CategoryCard image={MachineVisionImage} title="Machine Vision" />
@@ -44,6 +47,9 @@ export default function App() {
           </div>
           <div className="col-sm">
             <CategoryCard image={ValImage} title="System Testing and Validation" />
+          </div>
+          <div className="col-sm">
+            <CategoryCard image={ProjectImage} title="Equipment Design & Procurement" />
           </div>
         </div>
       </div >
