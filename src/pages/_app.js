@@ -35,24 +35,13 @@ export default function App() {
         <div className="row">
           {/*  Machine Control, Machine Vision, Human Machine Interfaces, Robotics, Qualification and Validation */}
           <div className="col-sm">
-            <CategoryCard image={MachineControlImage} title="Machine Control" modal={"#categoryModal1"}/>
+            <CategoryCard image={MachineControlImage} title="Machine Controls" modal={"#categoryModal1"}/>
           </div>
           <div className="col-sm">
             <CategoryCard image={MachineVisionImage} title="Machine Vision" modal={"#categoryModal2"}/>
           </div>
           <div className="col-sm">
-            <CategoryCard image={RobotImage} title="Robotics" modal={"#categoryModal3"}/>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
-            <CategoryCard image={HmiImage} title="Human Machine Interfaces" modal={"#categoryModal4"}/>
-          </div>
-          <div className="col-sm">
-            <CategoryCard image={ValImage} title="System Testing & Validation" modal={"#categoryModal5"}/>
-          </div>
-          <div className="col-sm">
-            <CategoryCard image={ProjectImage} title="Equipment Design & Procurement" modal={"#categoryModal6"}/>
+          <CategoryCard image={ValImage} title="System Qualification" modal={"#categoryModal5"}/>
           </div>
         </div>
       </div >
