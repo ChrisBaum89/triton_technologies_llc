@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvas2Label">
+        <div className="offcanvas offcanvas-end offcanvas-size-xl" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvas2Label">
             <div className="offcanvas-header">
                 <h5 className="offcanvas-title" id="offcanvasLabel">Contact</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
