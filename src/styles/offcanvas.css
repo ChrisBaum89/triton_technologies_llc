@@ -1,5 +1,8 @@
-.offcanvas{
-    background-color: white;
-    color: black;
-    text-align: center;
+.offcanvas {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.offcanvas-size-xl {
+  --bs-offcanvas-width: min(95vw, 500px) !important;
 }
