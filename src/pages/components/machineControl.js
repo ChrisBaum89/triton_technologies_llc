@@ -10,16 +10,13 @@ export default function MachineControl() {
                     </div>
                     <div className="modal-body">
                         <div className="category-summary">
-                            Over a decade of experience with process controls, specializing in machine control utilizing 
-                            Programmable Logic Controllers (PLCs).
+                            Over a decade of experience with process controls, specializing in machine control.
                         </div>
                         <div className="category-list">
                             <ul>
-                                <li>Allen-Bradley PLCs</li>
-                                <li>AutomationDirect PLCs</li>
-                                <li>Keyence PLCs</li>
-                                <li>Omron PLCs</li>
-                                <li>Siemens PLCs</li>
+                                <li>Programmable Logic Controllers (PLCs)</li>
+                                <li>Human Machine Interfaces (HMIs)</li>
+                                <li>Robotics</li>
                             </ul>
                         </div>
                     </div>
