@@ -8,21 +8,24 @@ export default function Contact() {
             <div className="offcanvas-body">
                 <form>
                     <div class="mb-3">
-                        <div className="about-form-line">
-                            <label class="about-label" for="first-name">First Name</label>
-                            <input className="about-input" type="text" id="first-name" name="first-name"></input>
+                        <div className="contact-form-line">
+                            <label class="contact-label" for="first-name">First Name</label>
+                            <input className="contact-input" type="text" id="first-name" name="first-name"></input>
                         </div>
-                        <div className="about-form-line">
-                            <label class="about-label" for="last-name">Last Name</label>
-                            <input className="about-input" type="text" id="last-name" name="last-name"></input>
+                        <div className="contact-form-line">
+                            <label class="contact-label" for="last-name">Last Name</label>
+                            <input className="contact-input" type="text" id="last-name" name="last-name"></input>
                         </div>
-                        <div className="about-form-line">
-                            <label class="about-label" for="email">Email</label>
-                            <input className="about-input" type="text" id="email" name="email"></input>
+                        <div className="contact-form-line">
+                            <label class="contact-label" for="email">Email</label>
+                            <input className="contact-input" type="text" id="email" name="email"></input>
                         </div>
-                        <div className="about-form-line">
-                            <label class="about-label" for="company">Company</label>
-                            <input className="about-input" type="text" id="company" name="company"></input>
+                        <div className="contact-form-line">
+                            <label class="contact-label" for="company">Company</label>
+                            <input className="contact-input" type="text" id="company" name="company"></input>
+                        </div>
+                        <div class="contact-message-line">
+                            <textarea class="contact-message" id="message" name="contact-message" rows="8" cols="30" placeholder="message+--"></textarea>
                         </div>
 
                     </div>
