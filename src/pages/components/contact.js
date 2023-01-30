@@ -12,7 +12,10 @@ export default function Contact() {
                             Email:  <a href = "mailto: crbconsultingsc@gmail.com">crbaumconsultingsc@gmail.com</a>
                         </div>
                         <div>
-                            Phone Number: 704-604-6450
+                            Phone: 704-604-6450
+                        </div>
+                        <div>
+                            Currently serving the Upstate SC area.
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
