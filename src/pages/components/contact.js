@@ -25,7 +25,7 @@ export default function Contact() {
                             <input className="contact-input" type="text" id="company" name="company"></input>
                         </div>
                         <div class="contact-message-line">
-                            <textarea class="contact-message" id="message" name="contact-message" rows="8" cols="30" placeholder="message+--"></textarea>
+                            <textarea class="contact-message" id="message" name="contact-message" rows="8" cols="30" placeholder="message"></textarea>
                         </div>
 
                     </div>
