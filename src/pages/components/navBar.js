@@ -13,14 +13,14 @@ export default function NavBar(props) {
                     </a>
                     <ul className="navbar-nav me-right mb-0 mb-l-0">
                         <li key={1} className="nav-item">
-                            <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">
+                            <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvas1" role="button" aria-controls="offcanvasExample1">
                                 <div className="link-text">
                                     About
                                 </div>
                             </a>
                         </li>
                         <li key={2} className="nav-item">
-                            <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample2">
+                            <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvas2" role="button" aria-controls="offcanvasExample2">
                                 <div className="link-text">
                                     Contact
                                 </div>
