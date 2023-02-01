@@ -8,12 +8,9 @@ import '@/styles/categoryModal.css'
 import '@/styles/contact.css'
 import { useEffect } from 'react';
 import MachineVisionImage from '@/images/machine-vision.png'
-import RobotImage from '@/images/robot.png'
-import HmiImage from '@/images/human-machine-interface.png'
 import ValImage from '@/images/validation.png'
 import MachineControlImage from '@/images/machine-control.png'
-import LogoImage from '@/images/crb-consulting.png'
-import ProjectImage from '@/images/project-management.png'
+import LogoImage from '@/images/triton-technologies.png'
 import CategoryCard from './components/categoryCard';
 import NavBar from './components/navBar';
 
@@ -29,7 +26,8 @@ export default function App() {
     <div className="app-main">
       <NavBar logo={LogoImage}/>
       <div className="summary">
-        Over a decade of experience in machine control, machine vision, and system qualification.
+        With over a decade of experience in machine control, machine vision, and system qualification, Triton Technologies
+        is here to help you navigate Production and automated equipment challenges.
       </div>
       <div className="category-cards">
         <div className="row">
