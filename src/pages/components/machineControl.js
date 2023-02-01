@@ -9,7 +9,16 @@ export default function MachineControl() {
                     </div>
                     <div className="modal-body">
                         <div className="category-summary">
-                            Over a decade of experience with process controls, specializing in machine control.
+                        <p>Industrial machine control refers to the control and monitoring of various machines used in 
+                        industrial processes. It helps improve efficiency, reliability, and safety by automating repetitive 
+                        tasks, detecting and diagnosing malfunctions, and allowing for remote monitoring and control. By 
+                        automating these processes, industrial machine control can lead to increased production speed and reduced downtime, 
+                        lower costs and improved overall quality of the final product. 
+                        </p>
+                        <p>
+                            We have extensive experience with optimizing and improving machine controls along with implementing data collection systems
+                            that will provide feed-back to the decision makers at your facility.
+                        </p>
                         </div>
                         <div className="category-list">
                             <ul>
