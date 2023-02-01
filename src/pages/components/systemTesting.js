@@ -10,7 +10,9 @@ export default function SystemTesting() {
                     </div>
                     <div className="modal-body">
                         <div className="category-summary">
-                            add summary
+                            We have over a decade of experience developing and executing equipment validation and qualification protocols. With experience
+                            in regulated industries (Pharma and Medical Device), we can develop the protocol to your needs and requirements or assist
+                            with the execution of a protocol.
                         </div>
                         <div className="category-list">
                             <ul>
