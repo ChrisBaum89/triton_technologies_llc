@@ -7,11 +7,28 @@
     background-color: black;
     color: white;
     text-align: left;
+    border: solid;
+    border-width: 1px;
+    border-color:#00B5FF;
+}
+
+.modal-footer{
+    border: solid;
+    border-width: 1px;
+    border-color:#00B5FF;
+}
+
+.modal-header{
+    text-align: center!important;
+    border: solid;
+    border-width: 1px;
+    border-color:#00B5FF;
 }
 
 .modal-title{
     font-size: 50px!important;
-    color: #00B5FF;
+    color: white;
+    width: 100%;
 }
 
 .category-list{
