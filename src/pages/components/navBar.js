@@ -15,14 +15,14 @@ export default function NavBar(props) {
                         <li key={1} className="nav-item">
                             <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvas1" role="button" aria-controls="offcanvasExample1">
                                 <div className="link-text">
-                                    About
+                                    ABOUT
                                 </div>
                             </a>
                         </li>
                         <li key={2} className="nav-item">
                             <a className="nav-link active" data-bs-toggle="offcanvas" href="#offcanvas2" role="button" aria-controls="offcanvasExample2">
                                 <div className="link-text">
-                                    Contact
+                                    CONTACT
                                 </div>
                             </a>
                         </li>
