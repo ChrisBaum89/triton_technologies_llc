@@ -1,7 +1,7 @@
 export default function MachineControl() {
     return (
         // modal is called by the id string
-        <div className="modal fade" id="categoryModal1" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
+        <div className="modal fade" id="categoryModal1" tabIndex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">

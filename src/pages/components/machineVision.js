@@ -1,7 +1,7 @@
 export default function MachineVision() {
     // modal is called by the id string
     return (
-        <div className="modal fade" id="categoryModal2" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
+        <div className="modal fade" id="categoryModal2" tabIndex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
