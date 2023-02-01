@@ -17,6 +17,7 @@ export default function MachineControl() {
                                 <li>Programmable Logic Controllers (PLCs)</li>
                                 <li>Human Machine Interfaces (HMIs)</li>
                                 <li>Industrial Robotics</li>
+                                <li>Data Collection</li>
                             </ul>
                         </div>
                     </div>
