@@ -9,9 +9,16 @@ export default function SystemTesting() {
                     </div>
                     <div className="modal-body">
                         <div className="category-summary">
-                            We have over a decade of experience developing and executing equipment validation and qualification protocols. With experience
-                            in regulated industries (Pharma and Medical Device), we can develop the protocol to your needs and requirements or assist
-                            with the execution of a protocol.
+                            <p>
+                                Industrial system qualification refers to the process of evaluating and verifying that a system meets
+                                the required specifications and standards for use in an industrial environment. This process typically
+                                involves a series of tests, inspections, and documentation reviews to ensure that the system meets the
+                                required functional, performance, safety, and regulatory requirements.
+                            </p>
+                            <p>
+                                With over a decade of experience in the Pharmaceutical and Medical Device industry we are experts at
+                                developing and executing validation protocols and testing.
+                            </p>
                         </div>
                         <div className="category-list">
                             <ul>
