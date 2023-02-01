@@ -10,8 +10,11 @@ export default function MachineVision() {
                     </div>
                     <div className="modal-body">
                     <div className="category-summary">
-                            Expert in implementing defect and part presence machine vision detection
-                             and integrating vision sensors into existing systems.
+                            Machine vision is one of our passions! Vision inspection can provide unparalleled consistency and quality
+                            to your process and final product.
+                            We are experts in implementing tolerance and surface defect detection and part/feature presence.
+                            We can help consult on new equipment, existing vision systems, or integration of new vision systems into your
+                            existing equipment.
                         </div>
                         <div className="category-list">
                             <ul>
