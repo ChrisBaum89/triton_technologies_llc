@@ -9,11 +9,16 @@ export default function MachineVision() {
                     </div>
                     <div className="modal-body">
                     <div className="category-summary">
-                            Machine vision is one of our passions! Vision inspection can provide unparalleled consistency and quality
-                            to your process and final product.
-                            We are experts in implementing tolerance and surface defect detection and part/feature presence.
-                            We can help consult on new equipment, existing vision systems, or integration of new vision systems into your
-                            existing equipment.
+                    <p>Industrial machine vision refers to the use of cameras and image processing algorithms to inspect, identify and categorize parts, 
+                    products or defects in real-time during the manufacturing process. It helps improve quality control and increase efficiency by 
+                    automating visual inspection tasks, detecting defects or deviations from specifications, and guiding robots or other machines 
+                    to make necessary adjustments. This technology can also be used to identify and track products through the production line, 
+                    monitor production progress and gather data for analysis and continuous improvement.
+                    </p>
+                    <p>
+                        Machine vision is one of our passions as we know the impact it can have to Production, Quality, and a companies bottom line! 
+                        We have significant experience with surface inspections, part/feature presence, and dimensional inspections.
+                    </p>
                         </div>
                         <div className="category-list">
                             <ul>
