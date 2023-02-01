@@ -3,7 +3,7 @@ export default function About () {
     return (
         <div className="offcanvas offcanvas-end offcanvas-size-xl" tabindex="-1" id="offcanvas1" aria-labelledby="offcanvas1Label">
                     <div className="offcanvas-header">
-                        <h1 className="offcanvas-title" id="offcanvasLabel">About</h1>
+                        <h1 className="offcanvas-title" id="offcanvasLabel">ABOUT</h1>
                         <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div className="offcanvas-body">
