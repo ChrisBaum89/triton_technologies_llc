@@ -9,16 +9,18 @@ export default function Contact() {
                 <form>
                     <div class="mb-3">
                         <div>
-                            Email:  <a href = "mailto: crbconsultingsc@gmail.com">crbaumconsultingsc@gmail.com</a>
+                            Email:  <a href = "mailto: crbconsultingsc@gmail.com">tritontechnologiessc@gmail.com</a>
                         </div>
+                        <br></br>
                         <div>
                             Phone: 704-604-6450
                         </div>
+                        <br></br>
                         <div>
-                            Currently serving the Upstate SC area.
+                            Triton Technologies is located in Fort Mill, SC and is currently provided
+                            service in the Upstate SC area.
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
