@@ -33,8 +33,8 @@ export default function App() {
       </Head>
       <NavBar logo={LogoImage}/>
       <div className="summary">
-        With over a decade of experience in machine control, machine vision, and system qualification, Triton Technologies
-        is here to help you navigate Production and automated equipment challenges.
+      Triton Technologies brings a wealth of expertise to the table, honed over a decade of experience in machine control, vision systems, 
+      and system qualification. Let us be your guide to overcoming production and automation challenges with ease.
       </div>
       <div className="category-cards">
         <div className="row">
