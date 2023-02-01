@@ -1,10 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
-import EquipmentDesign from "./equipmentDesign"
-import HumanMachineInterfaces from "./humanMachineInterfaces"
 import MachineControl from "./machineControl"
 import MachineVision from "./machineVision"
-import Robotics from "./robotics"
 import SystemTesting from "./systemTesting"
 
 export default function CategoryCard(props) {
@@ -21,10 +18,7 @@ export default function CategoryCard(props) {
 
             <MachineControl />
             <MachineVision />
-            <Robotics />
-            <HumanMachineInterfaces />
             <SystemTesting />
-            <EquipmentDesign />
         </div>
     )
 }
