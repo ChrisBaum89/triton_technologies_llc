@@ -22,18 +22,12 @@
   color: white;
 }
 
-.nav-link {
-}
-
-.navbar-nav {
-}
-
 .top-nav {
   background-color: black;
   font-weight: bold;
   top: 0px;
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   border-bottom-left-radius: 5px!important;
   border-bottom-right-radius: 5px!important;
 }
