@@ -9,7 +9,7 @@ export default function Contact() {
                 <form>
                     <div className="mb-3">
                         <div>
-                            Email:  <a href = "mailto: crbconsultingsc@gmail.com">cbaum@tritontechllc.com</a>
+                            Email:  <a href = "mailto: cbaum@tritontechllc.com">cbaum@tritontechllc.com</a>
                         </div>
                         <br></br>
                         <div>
