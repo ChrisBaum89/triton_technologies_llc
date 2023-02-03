@@ -8,7 +8,7 @@ export default function NavBar(props) {
         <div className="top-nav">
             <nav className="navbar navbar-expand">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="tritontechllc.com">
+                    <a className="navbar-brand" href="">
                         <Image src={props.logo} className="card-img-top" alt="..." style={{ height: "4rem", width: "auto" }} />
                     </a>
                     <ul className="navbar-nav me-right mb-0 mb-l-0">
